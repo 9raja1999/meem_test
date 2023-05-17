@@ -8,7 +8,7 @@ import { Button } from "antd";
 import { EyeOpen, EyeClose } from '../../../../constants/svg';
 import { useState } from "react";
 
-export default function page() {
+export default function ResetPassword() {
     const router = useRouter();
     const [npasswordshow, setNpasswordshow] = useState(false);
     const [cpasswordshow, setCpasswordshow] = useState(false);

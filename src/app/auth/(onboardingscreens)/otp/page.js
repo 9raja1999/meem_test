@@ -6,7 +6,7 @@ import HeadingWithTitle from "../../../components/HeadingWithTitle"
 import OTPInput from "react-otp-input"
 
 
-export default function page({ params, searchParams }) {
+export default function Otp({ params, searchParams }) {
     const router = useRouter();
     const [otp, setOtp] = useState('')
     const [error, setError] = useState(false);

@@ -7,7 +7,7 @@ import HeadingWithTitle from '../../../components/HeadingWithTitle'
 import { GreenTickIcon, ErrorInfoIcon } from "../../../../constants/svg"
 
 
-export default function ForgetPwd() {
+export default function ForgetPassword() {
     const router = useRouter();
     const { register, handleSubmit, watch, formState: { errors, dirtyFields } } = useForm({
         mode: "onChange",
