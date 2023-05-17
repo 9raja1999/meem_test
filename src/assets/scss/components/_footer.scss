@@ -1,0 +1,53 @@
+footer{ border-top: 1px solid #E8E8E8; padding:25px 0; 
+
+.footerlogo {
+    margin-bottom: 20px;
+}
+p{font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: -0.2px; 
+    color: #707070;     padding-right: 20px;}
+
+
+    section.copyRight {
+        border-top: 1px solid #DEE2E7;
+        padding: 16px 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    ul{
+        
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+
+        li {
+            a.nav-link {font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px; 
+                letter-spacing: -0.2px; 
+                color: #707070; margin-bottom: 4px;
+                
+                &:hover{color:#FEC106}
+                
+                ;}
+        }
+    }
+
+
+    .footerAppLink {
+        a {margin-bottom: 8px;   padding: 0  ;}
+    }
+    .copy__content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #707070;
+    }
+}

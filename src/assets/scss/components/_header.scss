@@ -1,0 +1,85 @@
+header {
+    padding: 20px 0 15px;
+    border-bottom: 1px solid #E7E7E7;
+
+    .main__Logo {
+        margin-right: 25px;
+    }
+
+
+    .logoListing {
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .item__ServiceLinking {
+            background: rgba(246, 247, 249, 0.8);
+            backdrop-filter: blur(50px);
+            border-radius: 70px;
+            padding: 4px 8px;
+            ;
+
+            ul {
+                display: flex;
+                flex-wrap: nowrap;
+
+                li {
+                    a.nav-link {
+                        padding: 5px 21px;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 19px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        text-transform: capitalize;
+                        border-radius: 46px;
+                        color: #002D7F;
+
+                        &:hover {
+                            background-color: #002D7F;
+                            color: #FFFFFF;
+                        }
+
+                        &.active {
+                            background-color: #002D7F;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .right__listing {
+        padding-top: 5px;
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .avatar__image {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            .user__image{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        .country__name {
+            color: $darkBlack;
+            margin-bottom: 0px;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+        }
+    }
+
+
+}

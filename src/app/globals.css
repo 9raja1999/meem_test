@@ -1,0 +1,49 @@
+@import url(../assets/fonts/stylesheet.css);
+:root { margin: 0px; padding:0px;  font-family: 'Avenir Next'; 
+    --primary-color:#002D7F;
+    --secondary-color:#FEC106;
+    --white-color:#ffffff;
+    --gray-color: #707070;
+    --black-color:#000000; 
+
+
+
+}
+body { margin: 0px; padding:0px;  font-family: 'Avenir Next' !important;  }
+
+
+
+/*************************************
+Button Css
+**************************************/
+
+.button__whitebg{
+          font-style: normal;    font-weight: 600;     font-size: 14px;  line-height: 19px;    display: flex;  align-items: center;    justify-content: center;  text-align: center;    background-color: transparent;        width: 152px; height: 46px;      
+             color: var(--primary-color);border: 1px solid var(--primary-color); border-radius: 30px; 
+
+             &:hover {
+                color: #ffffff; background-color: var(--primary-color);     transition: .3s linear;
+             }
+}
+
+
+
+
+.button__Graybg{
+    font-style: normal;    font-weight: 600;     font-size: 14px;  line-height: 19px;    display: flex;  align-items: center;    justify-content: center;  text-align: center;    background-color: transparent;        width: 152px; height: 46px;      
+       color: var(--gray-color);border: 1px solid  var(--gray-color); border-radius: 30px; 
+
+       &:hover {
+          color: var(--primary-color); border-color:  var(--primary-color);     transition: .3s linear;
+       }
+}
+
+
+.button__Bluebg{
+    font-style: normal;    font-weight: 600;     font-size: 14px;  line-height: 19px;    display: flex;  align-items: center;    justify-content: center;  text-align: center;    background-color: transparent;        width: 152px; height: 46px;      
+       color: var(--white-color);border: 1px solid  var(--primary-color); background-color: var(--primary-color); border-radius: 30px; 
+
+       &:hover {
+          color: var(--primary-color); border-color:  var(--primary-color);  background-color: var(--white-color);     transition: .3s linear;
+       }
+}

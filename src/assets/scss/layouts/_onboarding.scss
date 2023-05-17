@@ -1,0 +1,40 @@
+.obvoarding__layout { 
+    max-width: 410px;
+    margin: 0 auto;
+
+    .logo__holder{
+        margin-top: 30px;
+        margin-bottom: 20px;    
+    }
+    .inner__holder{
+        background: white;
+        padding: 20px 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .links__footer{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        padding: 0px;
+        gap: 16px;
+        a{
+            margin-bottom: 0px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0,2px;
+            color: $grey;
+            cursor: pointer;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+    }
+}

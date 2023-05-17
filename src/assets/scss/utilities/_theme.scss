@@ -1,0 +1,207 @@
+body {
+    background: #FBFBFD;
+    font-size: 16px;
+    overflow-x: hidden;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    // margin: 0px;
+    // padding: 0px;
+}
+
+
+.contianer {
+    max-width: 1260px;
+}
+
+
+.icon {
+    cursor: pointer;
+}
+
+
+
+.rest__field {
+    background: #F6F7F9;
+}
+
+.error__field {
+    border: 1px solid #FF5A4E;
+    background: #FFEDEC;
+}
+
+.success__field {
+    border: 1px solid #069952;
+    background: #F0FFF8;
+}
+
+.padding_bottom_30 {
+    padding-bottom: 30px;
+}
+
+.padding_top_10 {
+    padding-top: 10px;
+}
+
+.padding_top_30 {
+    padding-top: 30px;
+}
+
+.margin_top_30 {
+    margin-top: 30px;
+}
+
+.margin_top_20 {
+    margin-top: 20px;
+}
+
+.margin_top_15 {
+    margin-top: 15px;
+}
+
+.margin_top_23 {
+    margin-top: 23px;
+}
+
+/* Error INfo Text of Forms */
+.error__info__text {
+    color: #FF5A4E;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.success__text__color {
+    color: #069952;
+}
+
+.error__text__color {
+    color: #FF5A4E;
+}
+
+
+.darkColor__para {
+    color: #1E2329
+}
+
+.lightColor__para {
+    color: #707070
+}
+.yellowColor__para{
+    color : #FEC106
+}
+
+// INPUT
+
+.input {
+    background: #F6F7F9;
+    height: 48px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .enter__input {
+        margin-left: 16px;
+        outline: none;
+        border: none;
+        background: none;
+        width: 100%;
+
+    }
+
+}
+
+.input__label {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+
+    span {
+        color: #FEC106
+    }
+}
+
+.blue__button {
+    background: #002D7F;
+    height: 46px;
+    border: 1px solid #002D7F;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    p {
+        margin-bottom: 0px;
+        line-height: 19px;
+        font-weight: 600;
+    }
+}
+
+
+// Recent Search Input
+
+.recent__search__main {
+    padding-top: 3px;
+    // width: 501px;
+
+
+    .recent__Search {
+        background: #F6F7F9;
+        border-radius: 10px;
+        height: 38px;
+
+       
+
+        .form-control {
+            background: none;
+            outline: none;
+            border: none;
+        }
+
+        .form-control:focus {
+            outline: none !important;
+            box-shadow: none;
+        }
+
+        .input-group-text {
+            border: none;
+            outline: none;
+
+            svg {
+                margin-left: 2px;
+            }
+        }
+    }
+}
+.all__categories__popover {
+    ul{
+        li{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin-bottom: 9px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+// Back grounds
+
+.bg__yellow {
+    background: #FEC106;
+}
+
+.fade__bg__grey {
+    background: #F6F7F9;
+}
+
+.rounded {
+    border-radius: 10px;
+}

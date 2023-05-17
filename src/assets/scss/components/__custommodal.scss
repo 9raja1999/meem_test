@@ -1,0 +1,35 @@
+.custom__modal{
+    height: 502px;
+    .ant-modal-content{
+        height: 100%;
+        width: 451px;
+        margin: 0 auto;
+        border-radius: 14px;
+        background: $white;
+        padding: 30px 37px 0px 37px;
+
+        .modal__header{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .heading{
+                margin-bottom: 0px;
+                color: #000000;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+            .close__icon{
+                padding: 0px;
+                cursor: pointer;
+            }
+        }
+
+        .modal__body{
+            margin-top: 18px;
+        }
+    }
+}

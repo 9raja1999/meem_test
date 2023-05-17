@@ -1,0 +1,65 @@
+.otp__inputs__holder {
+    width: 100%;
+
+    >div {
+        width: 100%;
+        justify-content: space-between;
+
+
+        input {
+            width: 60px !important;
+            height: 60px;
+            background: $lightishGrey;
+            border: none;
+            border-radius: 10px;
+
+            &:focus,
+            &:focus-visible {
+                outline: none;
+                border-color: blue;
+            }
+        }
+
+        input::placeholder {
+            color: $lightishBlack;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+}
+
+.button__holder {
+    width: 100%;
+
+    button {
+        width: 100%;
+        padding: 6px 24px;
+        height: 46px;
+        background: $blue;
+        border-radius: 30px;
+        color: $white;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        border: none;
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .otp__inputs__holder>div input {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .otp__inputs__holder>div input {
+        width: 2.8rem !important;
+        height: 2.8rem !important;
+        border-radius: 6px;
+    }
+}

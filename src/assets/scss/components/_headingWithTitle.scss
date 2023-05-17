@@ -1,0 +1,25 @@
+.headingWithTitle_container {
+    width: 100%;
+
+    .cancel__tag{
+        color: $grey;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        cursor: pointer;
+    }
+
+    .heading {
+        color: $black;
+        line-height: 33px;
+        font-style: normal;
+    }
+    
+    .title{
+        color: $black;
+        font-style: normal;
+        line-height: 19px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}
