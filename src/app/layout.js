@@ -1,8 +1,6 @@
-import './globals.css' ;
-
-
+import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/style.scss'
+import '../../public/styles/style.scss'
 
 export const metadata = {
 
