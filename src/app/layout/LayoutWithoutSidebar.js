@@ -1,7 +1,7 @@
-import React from 'react'
+"use client"
 
-export default function     () {
+export default function LayoutWithoutSidebar() {
   return (
-    <div>    </div>
+    <div>LayoutWithoutSidebar</div>
   )
 }

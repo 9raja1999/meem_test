@@ -102,8 +102,9 @@ export default function RecentSearch() {
                     <div className="all__categories__popover">
                         <ul>
                             {
-                                categories.map((el) => {
+                                categories.map((el, idx) => {
                                     return <li
+                                        key={idx}
                                         className={el == selectedcategory ? 'yellowColor__para' : 'lightColor__para'}
                                         onClick={() => setSelectedcategory(el)}
                                     >{el}</li>

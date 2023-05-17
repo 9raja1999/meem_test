@@ -71,7 +71,7 @@ export default function SearchLocation({ onCancel, initialstep }) {
                             <div className='list__data'>
                                 {
                                     data.map((el, idx) => {
-                                        return <div className='dropdoewn__locs' onClick={() => selectLocation(idx)}>
+                                        return <div key={idx} className='dropdoewn__locs' onClick={() => selectLocation(idx)}>
                                             <div>
                                                 <LocationBlueIcon />
                                             </div>
