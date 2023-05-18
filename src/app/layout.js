@@ -1,9 +1,8 @@
-import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../public/styles/style.scss'
+import './globals.css';
+import '../styles/style.scss'
 
 export const metadata = {
-
   title: 'Meem ',
   description: 'Trade your goods and services with others in your community with ease."',
 }

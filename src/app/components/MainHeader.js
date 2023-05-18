@@ -4,12 +4,12 @@ import { Container, Row, Col, NavLink, InputGroup, Form } from 'react-bootstrap'
 import { MainLogo } from '@/constants/svg'
 import { Avatar, Button, Space, Popover } from "antd"
 import { HeartIcon, BellIcon, DropIcon, LocationIcon, SearchIcon, AwrrowDown } from '../../constants/svg'
-import AvatarImg from "../../assets/images/avatar/avatar.png"
+
 import { useEffect, useState } from 'react'
 import SearchLocation from './location/SearchLocation'
 import RecentSearch from './RecentSearch'
 import CustomModal from './CustomModal'
-
+import AvatarPopover from './AvatarPopover'
 export default function MainHeader() {
   const [openlocation, setOpenlocation] = useState(false);
 
@@ -42,29 +42,17 @@ export default function MainHeader() {
               <div>
                 <BellIcon />
               </div>
-              <div className='avatar__image'>
-                <Popover
-                  trigger="click"
-                  overlayStyle={{width : '251px'}}
-                  placement="bottomLeft"
-                  content={
-                    <div >
-                      kjkj
-                    </div>
-                  }
-                >
-                  <Image src={AvatarImg} alt="avatar" className='user__image' />
-                </Popover>
-              </div>
+              <AvatarPopover />
               <div>
                 <HeartIcon />
               </div>
               <button className='button__whitebg' style={{ height: '35px' }}> + Create New</button>
-
-              <Space size={9}>
-                <LocationIcon />
+              <Space size={9} onClick={() => setOpenlocation(prev => !prev)}>
+                <div>
+                  <LocationIcon />
+                </div>
                 <p className='country__name'>Pakistan</p>
-                <div onClick={() => setOpenlocation(prev => !prev)}>
+                <div>
                   <DropIcon />
                 </div>
               </Space>
